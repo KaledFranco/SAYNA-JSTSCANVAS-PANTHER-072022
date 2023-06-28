@@ -1,0 +1,328 @@
+@font-face {
+    font-family: "BEYNO";
+    src: url(../fonts/BEYNO.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Cantarell";
+    src: url(../fonts/Cantarell-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Panthera";
+    src: url(../fonts/PantheraRegular-MVZ9J.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Wakanda Forever";
+    src: url(../fonts/WakandaForever-Regular.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "BEYNO";
+    font-size: 58px;
+    color: #9E91B7;
+}
+
+p {
+    font-family: "Cantarell";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.voir-plus {
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 1px;
+    font-family: "Cantarell";
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(../all-pages/arrière_plan.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Design de la navigation */
+
+.container1 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+nav img {
+    transform: scale(0.8);
+}
+
+nav img:hover {
+    -webkit-filter: invert(70%) sepia(87%) saturate(3034%) hue-rotate(245deg) brightness(95%) contrast(93%);
+    filter: invert(70%) sepia(87%) saturate(3034%) hue-rotate(245deg) brightness(95%) contrast(93%);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    column-gap: 60px;
+}
+
+nav ul a {
+    color: white;
+    font-family: "BEYNO";
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.active {
+    color: #9E91B7;
+    border-bottom: solid 1px #9E91B7;
+}
+
+nav ul a:hover {
+    color: white;
+    border-bottom: solid 1px white;
+}
+
+/* Design Defis */
+#defi {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-defi {
+    width: 100%;
+}
+
+.image-defi img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.titre h1 {
+    padding-top: 200px;
+}
+
+.defi {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .description {
+    background-image: url(../enigme/Pantherenigme2.png);
+    height: 400px;
+} */
+
+.description p {
+    width: 70%;
+    text-align: justify;
+    padding-left: 80px;
+    padding-top: 160px;
+}
+
+.image-fond {
+    position: relative;
+    top: -260px;
+}
+
+.image-fond img {
+    width: 85%;
+}
+
+/* Design Defi */
+
+#alphabet {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#alphabet h2 {
+    font-family: "Wakanda Forever";
+    color: #9E91B7;
+    letter-spacing: 10px;
+    padding-bottom: 100px;
+}
+
+.trans {
+    display: flex;
+    flex-direction: row;
+} 
+
+.paragraphe-forever {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.forever {
+    font-family: "Wakanda Forever";
+    font-size: 14px;
+}
+
+.formulaire-texte {
+    padding: 20px 0;
+}
+
+input[type="text"] {
+    border-radius: 38px;
+    border: solid 1px white;
+    background-color: transparent;
+    width: 520px;
+    height: 56px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #F2CEF2;
+    margin-top: 50px;
+    margin-left: 175px;
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+input[type="submit"]:hover {
+    filter: drop-shadow(0 0 20px  #F2CEF2);
+}
+
+.image-fond-trans {
+    position: relative;
+    top: -200px;
+}
+
+.image-fond-trans img {
+    width: 100%;
+}
+
+.p1 {
+    padding: 25px 50px;
+    text-align: center;
+}
+
+.p2 {
+    text-align: center;
+}
+
+/* footer*/
+footer {
+    background-image: url(../all-pages/back_footer.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.divfooter{
+    background-image: url(../all-pages/footer1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width:350px;
+    padding: auto;
+    margin-top: 100px;  
+    margin-right: 15%;
+    min-width: 200px;
+    max-width: 350px;
+  }
+
+  .divfooter:hover{
+    transform:scale(1.2);
+  }
+
+
+  .imgfooterlogo{
+    margin: 48px;
+    display: flex;
+    position: relative;
+    top: 30%;
+    width: 50%;
+
+  }
+
+  .border{
+    border: 1px solid white;
+  }
+
+  .titrefooter{
+    letter-spacing: 0.28em;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .footerdisposition{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footermenu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom:100px;
+ }
+
+ .soulignement:hover {
+    color: white;
+    border-bottom: solid 1px white;
+}
+
+ .footermenu a {
+    text-decoration: none;
+    color: white;
+ }
+
+.reseauxsociauxfooter{
+    width:35px;
+    margin-right: 30px;
+}
+
+.reseauxsociauxfooter:hover{
+    transform:scale(1.1);
+}
+
+
+.ulfooter{
+    font-family: 'cantarell';
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ulfooter li::before {
+    content: "🟣";
+    color: #F2CEF2;
+    margin-right: 10px;
+    height: 20px;
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "titre": "ENIGME NUMERO 1",
+        "enonce":"Prouve ton talent d’espion et déchiffre cette réplique d’Okoyé écrite en Wakandais, et apprend par la même occasion la première valeur d’une Dora Milaje!",
+        "enigme":" <span class='panthera-letter'>SI JE SUIS FIDELE C’EST A CE TRONE PEU IMPORTE QUI MONTE DESSUS </span>",
+        "reponse":"SI JE SUIS FIDELE C’EST A CE TRONE PEU IMPORTE QUI MONTE DESSUS",
+        "saisTu":"<p>Voici la transicription de l’alphabet :</p> <p class='paragraphe-forever'>A = <span class='forever'>A</span> ; B = <span class='forever'>B</span> ; c = <span class='forever'>C</span> ; d = <span class='forever'>D</span> ; e = <span class='forever'>E</span> ; f = <span class='forever'>F</span> ; g = <span class='forever'>G</span> ; h = <span class='forever'>H</span> ; i = <span class='forever'>I</span> ; j = <span class='forever'>J</span> ; <br> k = <span class='forever'>K</span> ; l = <span class='forever'>L</span> ; m = <span class='forever'>M</span> ; n = <span class='forever'>N</span> ; o = <span class='forever'>O</span> ; p = <span class='forever'>P</span> ; q = <span class='forever'>Q</span> ; r = <span class='forever'>R</span> ; s = <span class='forever'>S</span> ; t = <span class='forever'>T</span> ; <br> u = <span class='forever'>U</span> ; w = <span class='forever'>W</span> ; x = <span class='forever'>X</span> ; y = <span class='forever'>Y</span> ; z = <span class='forever'>Z</span></p>"
+    },
+    {
+        "titre": "ENIGME NUMERO 2",
+        "enonce": "Une anecdote intéressante est écrite juste en dessous mais elle est codée par un code césar également appelé code de chiffrement par décalage . L’alphabet a été décalé, trouve la clé de chiffrement qui te permettrait de retrouver les lettres et retranscris la phrase :",
+        "enigme": "Tm nqtu lmjcbm i Wikstivl mv Kitqnwzvqm. Qt a'ioqb lm ti dqttm lwvb mab wzqoqviqzm Zgiv Kwwotmz mb moitmumvb ti dqttm ycq i dc viqbzm tm uwcdmumvb xwtqbqycm lma jtiks xivbpmza",
+        "reponse": "1",
+        "saisTu": "Plusieurs sources s’entendent pour dire que la lettre la plus utilisée en français est la lettre E.En pourcentage de fréquence, la lettre est utilisée à 14 % dans une phrase.Et si tu regardais quel symbole revient le plus souvent ?"
+    },
+    {
+        "titre": "ENIGME NUMERO 3",
+        "enonce": "Lorsque T’Challa mange l’herbe en forme de coeur pour recevoir les pouvoirs du Black Panther, il voit son père afin de lui demander conseil afin de devenir un bon roi. Cette scène rappelle la même scène d’un certain film où un père dit à son fils de ne pas oublier qui il est et d’où il vient. Quel est ce film ?",
+        "enigme": "01001100 01000101 00100000 01010010 01001111 01001001 00100000 01001100 01001001 01001111 01001110 00001101 00001010",
+        "reponse": "1",
+        "saisTu": "Le philosophe Francis Bacon inventa en 1605 un alphabet bilitère, uniquement composé des deux lettres A et B. Cest en quelque sorte lancêtre du système binaire des ordinateurs actuels car toute lettre pouvait être construite avec un enchainement précis de ces deux lettres, tandis que le système binaire informatique utilise 0 et 1."
+    }
+]

@@ -1,0 +1,41 @@
+
+/* Design scroll */
+
+.scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    left: 40px;
+    top: 0;
+}
+
+.bar-left {  
+    height: 452px;
+    border-left: solid 3px $grey-color;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.bar-right {
+    height: 288px;
+    margin-bottom: 2px;
+    border-left: solid 3px $grey-color;
+}
+
+.reseaux-sociaux {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    transform: scale(1);
+}
+
+.scroll img:hover {
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(189deg) brightness(200%) contrast(101%);
+}

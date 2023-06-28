@@ -1,0 +1,613 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "BEYNO";
+  src: url(../fonts/BEYNO.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cantarell";
+  src: url(../fonts/Cantarell-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Panthera";
+  src: url(../fonts/PantheraRegular-MVZ9J.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Wakanda Forever";
+  src: url(../fonts/WakandaForever-Regular.ttf) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../all-pages/arrière_plan.png);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+h1 {
+  color: #9E91B7;
+  font-family: "Panthera";
+  font-size: 68px;
+  font-weight: normal;
+  margin-top: 125px;
+}
+
+h2 {
+  font-family: "BEYNO";
+  font-size: 18px;
+}
+
+p {
+  font-family: "Cantarell";
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.voir-plus {
+  text-decoration: none;
+  color: white;
+  border-bottom: solid 1px;
+  font-family: "Cantarell";
+  margin-top: 20px;
+}
+
+/* Design Black Panther */
+#panther .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#panther .container .content {
+  flex-basis: 45%;
+  margin-left: 25px;
+}
+#panther .container .content h2 {
+  color: #9E91B7;
+  margin-top: 10px;
+  font-family: "BEYNO";
+  font-size: 32px;
+}
+#panther .container .content p {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: "Cantarell";
+}
+#panther .container .image-panther {
+  flex-basis: 51%;
+  height: 500px;
+}
+#panther .container .image-panther img {
+  max-width: 100%;
+  max-height: 100%;
+  transform: scale(1.2);
+}
+
+/* Design Carrousel */
+#carrousel {
+  background-color: rgba(7, 51, 140, 0.2745098039);
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 150px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  height: 235px;
+  position: relative;
+}
+#carrousel .fa-solid {
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  top: 40%;
+  background-color: #07338C;
+  color: white;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 50%;
+}
+#carrousel #next {
+  right: 25px;
+}
+#carrousel #next:hover {
+  filter: drop-shadow(0 0 20px #FFFFFF);
+}
+#carrousel .image-carrousel-active {
+  margin-top: -50px;
+  margin-left: 30px;
+}
+#carrousel .image-carrousel-active img {
+  max-width: 386px;
+  max-height: 446px;
+}
+#carrousel .description {
+  margin-top: 30px;
+  flex-basis: 30%;
+}
+#carrousel .image-carousel {
+  max-width: 100%;
+  max-height: auto;
+}
+#carrousel p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+/* Design Civil T'Challa */
+#civil {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 200px auto 0 auto;
+}
+#civil .civil {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 160px;
+       column-gap: 160px;
+}
+#civil .civil .tchat {
+  background-color: #FFFFFF;
+  color: black;
+  margin-top: 200px;
+  padding: 0 30px;
+  width: 180%;
+  height: 600px;
+  border-radius: 10px;
+}
+#civil .civil .tchat .image-civil img {
+  max-width: 100%;
+  margin-top: -220px;
+  height: auto;
+}
+#civil .civil .tchat .tchat-description h3 {
+  font-family: "Cantarell";
+  text-align: center;
+}
+#civil .civil .tchat .tchat-description .btn-tchat {
+  background-color: #3D2DA6;
+  color: #FFFFFF;
+  border-radius: 6px;
+  padding: 5px 7px;
+  margin-top: 10px;
+  margin-right: 8px;
+  align-items: center;
+}
+#civil .civil .tchat .tchat-description span {
+  font-weight: bold;
+}
+#civil .civil .tchat .tchat-description p {
+  padding: 0;
+}
+#civil h2 {
+  margin-top: 25px;
+  color: #9E91B7;
+}
+#civil p {
+  text-align: justify;
+  margin-top: 20px;
+}
+#civil ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: "-";
+}
+
+/* Design Hero */
+.hero {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+}
+.hero .image-hero {
+  width: 250%;
+  margin-top: 40px;
+}
+.hero .image-hero img {
+  max-width: 100%;
+}
+
+/* Formulaire de contact */
+#contact {
+  background-image: url("../accueil/Pantherhome7.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+#contact .contact {
+  background: linear-gradient(180deg, #FFFFFF, transparent);
+  color: #07338C;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-left: 350px;
+  padding-top: 50px;
+  width: 50%;
+  border-radius: 130px;
+  height: 600px;
+}
+#contact .contact h2 {
+  font-family: "Cantarell";
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#contact .contact .formulaire {
+  display: flex;
+  flex-direction: column;
+}
+#contact .contact .formulaire input[type=text] {
+  border-radius: 38px;
+  border: solid 1px #07338C;
+  background-color: transparent;
+  width: 520px;
+  height: 56px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+#contact .contact .formulaire textarea {
+  border-radius: 38px;
+  border: solid 1px #07338C;
+  background-color: transparent;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+#contact .contact .formulaire input[type=submit] {
+  background-color: #F2CEF2;
+  margin-top: 20px;
+  margin-left: 175px;
+  width: 174px;
+  height: 54px;
+  border-radius: 38px;
+}
+#contact .contact .formulaire input[type=submit]:hover {
+  filter: drop-shadow(0 0 20px #021740);
+}
+
+#wakanda {
+  background-image: url(../wakanda/Pantherwakanda1.png);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  top: 100px;
+}
+#wakanda h1 {
+  color: #9E91B7;
+  font-family: "BEYNO";
+  font-size: 68px;
+  font-weight: normal;
+  padding-top: 300px;
+}
+#wakanda .content {
+  width: 36%;
+  text-align: justify;
+}
+#wakanda .content h2 {
+  font-family: "Wakanda Forever";
+  font-size: 43px;
+  color: #9E91B7;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* Design Description */
+#description .container {
+  background-image: url(../wakanda/Pantherwakanda2.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  text-align: justify;
+}
+#description .container .colonne-left {
+  padding-top: 100px;
+}
+#description .container h2 {
+  color: #9E91B7;
+  padding-top: 30px;
+}
+#description .container p {
+  padding-top: 20px;
+}
+#description .container .colonne-right {
+  padding-top: 100px;
+  width: 50%;
+}
+#description .container .colonne-right img {
+  width: 550px;
+}
+#description .container .colonne-right ul {
+  display: flex;
+  flex-direction: column;
+}
+#description .container .colonne-right ul li::before {
+  content: "—";
+}
+
+/* Design Defis */
+#defi {
+  display: flex;
+  flex-direction: row;
+}
+#defi .image-defi {
+  width: 100%;
+}
+#defi .image-defi img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#defi .defi {
+  display: flex;
+  flex-direction: column;
+}
+#defi .defi .titre h1 {
+  padding-top: 200px;
+}
+#defi .defi .description p {
+  width: 70%;
+  text-align: justify;
+  padding-left: 80px;
+  padding-top: 160px;
+}
+#defi .defi .description .image-fond {
+  position: relative;
+  top: -260px;
+}
+#defi .defi .description .image-fond img {
+  width: 85%;
+}
+
+/* Design Defi */
+#alphabet {
+  width: 80%;
+  margin: 0 auto;
+}
+#alphabet h2 {
+  font-family: "Wakanda Forever";
+  color: #9E91B7;
+  letter-spacing: 10px;
+  padding-bottom: 100px;
+}
+#alphabet .trans {
+  display: flex;
+  flex-direction: row;
+}
+#alphabet .trans .paragraphe-forever {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+#alphabet .trans .paragraphe-forever .forever {
+  font-family: "Wakanda Forever";
+  font-size: 14px;
+}
+#alphabet .trans .formulaire-texte {
+  padding: 20px 0;
+}
+#alphabet .trans input[type=text] {
+  border-radius: 38px;
+  border: solid 1px #FFFFFF;
+  background-color: transparent;
+  width: 520px;
+  height: 56px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+#alphabet .trans input[type=submit] {
+  background-color: #F2CEF2;
+  margin-top: 50px;
+  margin-left: 175px;
+  width: 174px;
+  height: 54px;
+  border-radius: 38px;
+}
+#alphabet .trans input[type=submit]:hover {
+  filter: drop-shadow(0 0 20px #F2CEF2);
+}
+#alphabet .trans ::-moz-placeholder {
+  color: #FFFFFF;
+}
+#alphabet .trans :-ms-input-placeholder {
+  color: #FFFFFF;
+}
+#alphabet .trans ::placeholder {
+  color: #FFFFFF;
+}
+#alphabet .trans .image-fond-trans {
+  position: relative;
+  top: -200px;
+}
+#alphabet .trans .image-fond-trans img {
+  width: 100%;
+}
+#alphabet .trans .p1 {
+  padding: 25px 50px;
+  text-align: center;
+}
+#alphabet .trans .p2 {
+  text-align: center;
+}
+
+/* Design scroll */
+.scroll {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  left: 40px;
+  top: 0;
+}
+
+.bar-left {
+  height: 452px;
+  border-left: solid 3px #9E91B7;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+
+.bar-right {
+  height: 288px;
+  margin-bottom: 2px;
+  border-left: solid 3px #9E91B7;
+}
+
+.reseaux-sociaux {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  transform: scale(1);
+}
+
+.scroll img:hover {
+  filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(189deg) brightness(200%) contrast(101%);
+}
+
+/* Design de la navigation */
+.container1 {
+  width: 85%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+nav img {
+  transform: scale(0.8);
+}
+
+nav img:hover {
+  filter: invert(70%) sepia(87%) saturate(3034%) hue-rotate(245deg) brightness(95%) contrast(93%);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+
+nav ul a {
+  color: #FFFFFF;
+  font-family: "BEYNO";
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.active {
+  color: #9E91B7;
+  border-bottom: solid 1px #9E91B7;
+}
+
+nav ul a:hover {
+  color: #FFFFFF;
+  border-bottom: solid 1px #FFFFFF;
+}
+
+footer {
+  background-image: url(../all-pages/back_footer.png);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
+footer .divfooter {
+  background-image: url(../all-pages/footer1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 350px;
+  padding: auto;
+  margin-top: 100px;
+  margin-right: 15%;
+  min-width: 200px;
+  max-width: 350px;
+}
+footer .divfooter:hover {
+  transform: scale(1.1);
+}
+footer .divfooter .imgfooterlogo {
+  margin: 48px;
+  display: flex;
+  position: relative;
+  top: 30%;
+  width: 50%;
+}
+footer .footerdisposition {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footerdisposition .footermenu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+footer .footerdisposition .footermenu .titrefooter {
+  letter-spacing: 0.28em;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+footer .footerdisposition .footermenu .soulignement:hover {
+  color: #FFFFFF;
+  border-bottom: solid 1px #FFFFFF;
+}
+footer .footerdisposition .footermenu a {
+  text-decoration: none;
+  color: white;
+}
+footer .footerdisposition .footermenu .reseauxsociauxfooter {
+  width: 35px;
+  margin-right: 30px;
+}
+footer .footerdisposition .footermenu .reseauxsociauxfooter:hover {
+  transform: scale(1.2);
+}
+footer .footerdisposition .ulfooter {
+  font-family: "cantarell";
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footerdisposition .ulfooter li::before {
+  content: "🟣";
+  color: #F2CEF2;
+  margin-right: 10px;
+  height: 20px;
+}/*# sourceMappingURL=main.css.map */

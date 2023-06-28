@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "BEYNO";
+    src: url(../fonts/BEYNO.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Cantarell";
+    src: url(../fonts/Cantarell-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Panthera";
+    src: url(../fonts/PantheraRegular-MVZ9J.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Wakanda Forever";
+    src: url(../fonts/WakandaForever-Regular.ttf) format("truetype");
+}
+
+@import './base/colors';
+@import './base/global';
+@import './layout/index';
+@import './layout/wakanda';
+@import './layout/enigme';
+@import './component/scrollbar';
+@import './component/navbar';
+@import './component/footer';

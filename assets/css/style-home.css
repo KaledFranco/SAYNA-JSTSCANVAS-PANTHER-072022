@@ -1,0 +1,488 @@
+@font-face {
+    font-family: "BEYNO";
+    src: url(../fonts/BEYNO.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Cantarell";
+    src: url(../fonts/Cantarell-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Panthera";
+    src: url(../fonts/PantheraRegular-MVZ9J.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Wakanda Forever";
+    src: url(../fonts/WakandaForever-Regular.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #9E91B7;
+    font-family: "Panthera";
+    font-size: 68px;
+    font-weight: normal;
+    margin-top: 125px;
+}
+
+h2 {
+    font-family: "BEYNO";
+    font-size: 18px;
+}
+
+p {
+    font-family: "Cantarell";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.voir-plus {
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 1px;
+    font-family: "Cantarell";
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(../all-pages/arrière_plan.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Design scroll */
+
+.scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    left: 40px;
+    top: 0;
+}
+
+.bar-left {  
+    height: 452px;
+    border-left: solid 3px #9E91B7;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.bar-right {
+    height: 288px;
+    margin-bottom: 2px;
+    border-left: solid 3px #9E91B7;
+}
+
+.reseaux-sociaux {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    transform: scale(1);
+}
+
+.scroll img:hover {
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(189deg) brightness(200%) contrast(101%);
+}
+
+
+/* Design de la navigation */
+
+.container1 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+nav img {
+    transform: scale(0.8);
+}
+
+nav img:hover {
+    -webkit-filter: invert(70%) sepia(87%) saturate(3034%) hue-rotate(245deg) brightness(95%) contrast(93%);
+    filter: invert(70%) sepia(87%) saturate(3034%) hue-rotate(245deg) brightness(95%) contrast(93%);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    column-gap: 60px;
+}
+
+nav ul a {
+    color: white;
+    font-family: "BEYNO";
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.active {
+    color: #9E91B7;
+    border-bottom: solid 1px #9E91B7;
+}
+
+nav ul a:hover {
+    color: white;
+    border-bottom: solid 1px white;
+}
+
+
+/* Design Black Panther */
+
+#panther .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#panther .container .content {
+    flex-basis: 45%;
+    margin-left: 25px;
+}
+
+#panther .container .content h2 {
+    color: #9E91B7;
+    margin-top: 10px;
+    font-family: "BEYNO";
+    font-size: 32px;
+}
+
+#panther .container .content p {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: "Cantarell";
+}
+
+.image-panther {
+    flex-basis: 51%;
+    height: 500px;
+}
+
+.image-panther img {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1.2);
+}
+
+/* Design Carrousel */
+
+#carrousel {
+    background-color: #07338c46;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    column-gap: 20px;
+    height: 250px;
+}
+
+.image-carrousel-active {
+    margin-top: -35px;
+    margin-left: 30px;
+}
+
+.description {
+    margin-top: 30px;
+    flex-basis: 30%;
+}
+
+.image-carousel {
+    max-width: 100%;
+    max-height: auto;
+}
+
+#carrousel h2 {
+    font-family: "BEYNO";
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#carrousel p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Design Civil T'Challa */
+
+#civil {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 200px auto 0 auto;
+}
+
+#civil h2 {
+    margin-top: 25px;
+    color: #9E91B7;
+}
+
+#civil p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+#civil ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: '-';
+}
+
+.civil {
+    display: flex;
+    flex-direction: row;
+    column-gap: 160px;
+}
+
+.tchat {
+    background-color: white; 
+    color: black;
+    margin-top: 200px; 
+    padding: 0 30px;
+    width: 180%;
+    height: 600px; 
+    border-radius: 10px;
+}
+
+.image-civil img {
+    max-width: 100%;
+    margin-top: -220px;
+    height: auto;
+}
+
+.tchat h3 {
+    font-family: "Cantarell";
+    text-align: center;
+}
+
+.btn-tchat {
+    background-color: #3D2DA6;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px 7px;
+    margin-top: 10px;
+    margin-right: 8px;
+    align-items: center;
+}
+
+.tchat-description span {
+    font-weight: bold;
+}
+
+.tchat-description p {
+    padding: 0;
+}
+
+
+/* Design Hero */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+}
+
+.image-hero {
+    width: 250%;
+    margin-top: 40px;
+}
+
+.image-hero img {
+    max-width: 100%;
+}
+
+/* Formulaire de contact */
+
+#contact {
+    background-image: url("../accueil/Pantherhome7.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.contact {
+    background: linear-gradient(180deg, white, transparent);
+    color: #021740;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 350px;
+    padding-top: 50px;
+    width: 50%;
+    border-radius: 130px;
+    height: 600px;
+}
+
+.contact h2 {
+    font-family: "Cantarell";
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire input[type="text"] {
+    border-radius: 38px;
+    border: solid 1px #021740;
+    background-color: transparent;
+    width: 520px;
+    height: 56px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.formulaire textarea {
+    border-radius: 38px;
+    border: solid 1px #021740;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.formulaire input[type="submit"] {
+    background-color: #F2CEF2;
+    margin-top: 20px;
+    margin-left: 175px;
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+}
+
+.formulaire input[type="submit"]:hover {
+    filter: drop-shadow(0 0 20px  #021740);
+}
+
+/* Design Footer */
+
+footer {
+    background-image: url(../all-pages/back_footer.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.divfooter{
+    background-image: url(../all-pages/footer1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width:350px;
+    padding: auto;
+    margin-top: 100px;  
+    margin-right: 15%;
+    min-width: 200px;
+    max-width: 350px;
+  }
+
+  .divfooter:hover{
+    transform:scale(1.1);
+  }
+
+
+  .imgfooterlogo{
+    margin: 48px;
+    display: flex;
+    position: relative;
+    top: 30%;
+    width: 50%;
+
+  }
+
+  .border{
+    border: 1px solid white;
+  }
+
+  .titrefooter{
+    letter-spacing: 0.28em;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .footerdisposition{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footermenu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom:100px;
+ }
+
+ .soulignement:hover {
+    color: white;
+    border-bottom: solid 1px white;
+}
+
+ .footermenu a {
+    text-decoration: none;
+    color: white;
+ }
+
+.reseauxsociauxfooter{
+    width:35px;
+    margin-right: 30px;
+}
+
+.reseauxsociauxfooter:hover{
+    transform:scale(1.2);
+}
+
+
+.ulfooter{
+    font-family: 'cantarell';
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ulfooter li::before {
+    content: "🟣";
+    color: #F2CEF2;
+    margin-right: 10px;
+    height: 20px;
+}
+
+
+
+

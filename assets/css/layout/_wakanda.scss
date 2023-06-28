@@ -1,0 +1,67 @@
+#wakanda {
+    background-image: url(../wakanda/Pantherwakanda1.png);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    top: 100px;
+    h1 {
+        color: $grey-color;
+        font-family: "BEYNO";
+        font-size: 68px;
+        font-weight: normal;
+        padding-top: 300px;
+    }
+    .content {
+        width: 36%;
+        text-align: justify;
+        h2 {
+            font-family: "Wakanda Forever";
+            font-size: 43px;
+            color: $grey-color;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+/* Design Description */
+
+#description {
+    .container {
+        background-image: url(../wakanda/Pantherwakanda2.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 100px;
+        text-align: justify;
+        .colonne-left {
+            padding-top: 100px;
+        }
+        h2 {
+            color: $grey-color;
+            padding-top: 30px;
+        }
+        p {
+            padding-top: 20px;
+        }
+        .colonne-right {
+            padding-top: 100px;
+            width: 50%;
+            img {
+                width: 550px;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                li::before {
+                    content: "—";
+                }
+            }
+        }
+    }
+}

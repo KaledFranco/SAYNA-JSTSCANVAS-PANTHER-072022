@@ -1,0 +1,52 @@
+$color-black: black;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../all-pages/arrière_plan.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: $white-color;
+}
+
+h1 {
+    color: $grey-color;
+    font-family: "Panthera";
+    font-size: 68px;
+    font-weight: normal;
+    margin-top: 125px;
+}
+
+h2 {
+    font-family: "BEYNO";
+    font-size: 18px;
+}
+
+p {
+    font-family: "Cantarell";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.voir-plus {
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 1px;
+    font-family: "Cantarell";
+    margin-top: 20px;
+}
+

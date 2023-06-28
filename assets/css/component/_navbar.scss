@@ -1,0 +1,48 @@
+/* Design de la navigation */
+
+.container1 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+nav img {
+    transform: scale(0.8);
+}
+
+nav img:hover {
+    -webkit-filter: invert(70%) sepia(87%) saturate(3034%) hue-rotate(245deg) brightness(95%) contrast(93%);
+    filter: invert(70%) sepia(87%) saturate(3034%) hue-rotate(245deg) brightness(95%) contrast(93%);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    column-gap: 60px;
+}
+
+nav ul a {
+    color: $white-color;
+    font-family: "BEYNO";
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.active {
+    color: $grey-color;
+    border-bottom: solid 1px $grey-color;
+}
+
+nav ul a:hover {
+    color: $white-color;
+    border-bottom: solid 1px $white-color;
+}
